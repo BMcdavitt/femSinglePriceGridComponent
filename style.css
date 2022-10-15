@@ -138,13 +138,28 @@ ul {
     .advert {
         grid-column: 1 / 3;
         grid-row: 1 / 2;
-        padding: 1.25rem 2.5rem;
+        padding: 2.8125rem 2.5rem;
     }
+
+    .advert h1 {
+        font-size: 1.5625rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .advert h2 {
+        font-size: 1.125rem;
+    }
+
+    .advert p {
+        line-height: 1.625rem;
+        letter-spacing: 0.0625rem;
+      }
 
     .subscribe {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
-        padding: 1.25rem 2.5rem;
+        padding: 2.8125rem 2.5rem 2.5rem 2.5rem;
+        font-size: 1rem;
     }
 
     .subscribe button {
@@ -152,10 +167,15 @@ ul {
         height: 2.8125rem;
     }
 
+    .subscribe h2 {
+        margin-bottom: 1.4375rem;
+    }
+
     .about {
         grid-column: 2 / 3;
         grid-row: 2 / 3;
-        padding: 1.25rem 2.5rem;
+        padding: 2.8125rem 2.5rem 2.5rem 2.5rem;
+
     }
 
     body {
